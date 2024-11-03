@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: transparent linear-gradient(97deg, #283606 0%, #0F1500 100%) 0% 0% no-repeat padding-box;
+}
+
+
+p{
+  font-family: var(--font-inter);
+}
+
+h2{
+  font-family: var(--font-playfair);
+
 }
 
 @layer utilities {

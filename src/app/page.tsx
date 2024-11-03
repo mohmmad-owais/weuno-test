@@ -1,7 +1,9 @@
+import Main from "@/feature/Main/Main";
+
 export default function Home() {
   return (
-    <div className="min-h-screen font-[family-name:var(--font-geist-sans)]">
-      Home
+    <div className="min-h-screen ">
+      <Main />
     </div>
   );
 }
