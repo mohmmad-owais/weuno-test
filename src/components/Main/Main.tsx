@@ -3,6 +3,7 @@ import AccessTicket from "./components/AccessTicket";
 import GeneralTicket from "./components/GeneralTicket";
 import Cuisine from "./components/Cuisine";
 import Experience from "./components/Experience";
+import FindPlace from "./components/FindPlace";
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
       <GeneralTicket />
       <Cuisine />
       <Experience />
+      <FindPlace />
     </div>
   );
 };
