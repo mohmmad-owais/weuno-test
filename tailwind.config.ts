@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+
 const config: Config = {
     darkMode: ["class"],
     content: [
@@ -9,10 +10,14 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		backgroundImage: {
+			'hero': "url('../assets/imgs/Hero.png')",
+		  },
 		fontFamily:{
 			inter:['var(--font-inter)'],
 			playFair:["var(--font-playfair)"],
 		},
+
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -62,6 +67,7 @@ const config: Config = {
   		}
   	}
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require("tailwindcss-animate")],
 };
 export default config;
