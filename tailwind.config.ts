@@ -12,6 +12,7 @@ const config: Config = {
   	extend: {
 		backgroundImage: {
 			'hero': "url('../assets/imgs/Hero.png')",
+			'card': 'linear-gradient(100deg, #283606, #172E12)',
 		  },
 		fontFamily:{
 			inter:['var(--font-inter)'],
@@ -19,6 +20,7 @@ const config: Config = {
 		},
 
   		colors: {
+			customColorPrimary:"#AD8749",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

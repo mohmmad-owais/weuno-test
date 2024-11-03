@@ -30,10 +30,10 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="flex border-b-2 border-white/50 items-center justify-between py-8 px-12 bg-black shadow-black shadow-2xl ">
+      <div className=" flex  items-center justify-between py-8 px-12 bg-black shadow-black shadow-2xl ">
         {/* logo */}
         <span className="w-1/2">
-          <Image src={logo} alt="logo" />
+          <Image src={logo} width={220} height={140} alt="logo" />
         </span>
         {/* right items */}
         <div className="flex items-center">
@@ -60,7 +60,9 @@ const NavBar = () => {
             </li>
           </ul>
           <span className="ml-10">
-            <Button className="float-left">Login</Button>
+            <Button className="" variant="custom" size="lg">
+              Login
+            </Button>
           </span>
 
           <div className="ml-10">
@@ -75,7 +77,7 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-      <div className="px-12 py-3 bg-black/60 shadow-black shadow-2xl border-b-2 border-white/50">
+      <div className="hidden sm:block px-12 py-3 bg-black/60 shadow-black shadow-2xl border-b-2 border-t-2 border-white/50">
         <ul className="flex justify-between uppercase tracking-wider">
           <li>
             <Link href="">Dine with us</Link>
