@@ -11,8 +11,10 @@ import { Button } from "@/components/ui/button";
 const Cuisine = () => {
   return (
     <div className="mt-20 flex flex-col items-center justify-center">
-      <h2 className="text-5xl md:text-7xl">Experience the Finest Cuisine</h2>
-      <p className="text-center w-3/4 mt-5">
+      <h2 className="text-center text-5xl md:text-7xl">
+        Experience the Finest Cuisine
+      </h2>
+      <p className="text-center text-sm md:text-base w-3/4 mt-5">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industrys standard dummy text ever
         since the 1500sLorem Ipsum has been the industrys standard dummy text

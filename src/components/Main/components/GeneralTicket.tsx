@@ -20,19 +20,27 @@ const GeneralTicket = () => {
       <div className="grid grid-cols-1 mt-10 sm:grid-cols-2 md:grid-cols-10 gap-6 p-4 ">
         <div className="rounded-lg overflow-hidden col-span-3 ">
           <Image src={Pic01} alt="alt" className="w-full h-auto object-cover" />
-          <p className="text-center text-white mt-2">Little Krazy</p>
+          <h2 className="text-center text-lg md:text-2xl text-white mt-4">
+            Little Krazy
+          </h2>
         </div>
         <div className="rounded-lg overflow-hidden col-span-2 mt-20">
           <Image src={Pic02} alt="alt" className="w-full h-auto object-cover" />
-          <p className="text-center text-white mt-2">Hawanin Groves City</p>
+          <h2 className="text-center text-lg md:text-2xl text-white mt-4">
+            Hawanin <br /> Groves City
+          </h2>
         </div>
         <div className="rounded-lg overflow-hidden col-span-3">
           <Image src={Pic03} alt="alt" className="w-full h-auto object-cover" />
-          <p className="text-center text-white mt-2">Hawanin Groves City</p>
+          <h2 className="text-center text-lg md:text-2xl text-white mt-4">
+            Picnic Market
+          </h2>
         </div>
         <div className="rounded-lg overflow-hidden col-span-2 mt-10">
           <Image src={Pic04} alt="alt" className="w-full h-auto object-cover" />
-          <p className="text-center text-white mt-2">Hawanin Groves City</p>
+          <h2 className="text-center text-lg md:text-2xl text-white mt-4">
+            Lucaworld
+          </h2>
         </div>
       </div>
     </div>
