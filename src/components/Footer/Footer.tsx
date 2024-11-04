@@ -14,11 +14,15 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
 
 const Footer = () => {
+  const getYear = new Date();
   return (
     <div className="p-12 mt-20 border-t-2 border-white/50">
       {/* First Row */}
       <div className="flex md:flex-row flex-col justify-between">
-        <h2 className="text-5xl md:text-6xl">
+        <div className="md:hidden">
+          <Image src={footerLogo} className="w-1/2 mb-5" alt="logo" />
+        </div>
+        <h2 className="text-4xl md:text-6xl">
           Join us for an <br /> unforgettable experience
         </h2>
         <div className="flex-col md:mt-0 mt-10">
@@ -72,7 +76,7 @@ const Footer = () => {
       {/* Third Row */}
 
       <div className="mt-20 flex md:flex-row flex-col justify-between">
-        <div>
+        <div className="hidden md:block">
           <Image src={footerLogo} alt="logo" />
         </div>
 
@@ -80,22 +84,22 @@ const Footer = () => {
           <ul className="flex md:mt-0 mt-10 space-x-5">
             <li>
               <Link href="">
-                <FaTiktok className="w-7 h-7 text-gray-300" />
+                <FaTiktok className="w-7 h-7 text-white/50" />
               </Link>
             </li>
             <li>
               <Link href="">
-                <RiInstagramFill className="w-7 h-7 text-gray-300" />
+                <RiInstagramFill className="w-7 h-7 text-white/50" />
               </Link>
             </li>
             <li>
               <Link href="">
-                <FaSquareXTwitter className="w-7 h-7 text-gray-300" />
+                <FaSquareXTwitter className="w-7 h-7 text-white/50" />
               </Link>
             </li>
             <li>
               <Link href="">
-                <FaSnapchatGhost className="w-7 h-7 text-gray-300" />
+                <FaSnapchatGhost className="w-7 h-7 text-white/50" />
               </Link>
             </li>
           </ul>
@@ -104,16 +108,16 @@ const Footer = () => {
 
       {/* Fourth Row */}
 
-      <div className="mt-10 flex md:flex-row flex-col justify-between">
+      <div className="mt-10 flex md:flex-row flex-col items-center justify-between">
         <div>
-          <ul className="flex space-x-10">
+          <ul className="flex md:flex-row flex-col md:text-base text-sm md:space-x-10 space-y-5 md:space-y-0">
             <li>Terms & Conditions</li>
             <li>Privacy Policy</li>
-            <li>©2024 The Groves for Entertainment</li>
+            <li>©{getYear.getFullYear()} The Groves for Entertainment</li>
           </ul>
         </div>
         <div>
-          <ul className="flex space-x-2 items-center md:mt-0 mt-5">
+          <ul className="flex space-x-2 cursor-pointer items-center md:mt-0 mt-5">
             <li>
               <Image src={visaCard} alt="footerImages" />
             </li>

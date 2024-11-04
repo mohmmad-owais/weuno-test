@@ -10,8 +10,8 @@ import Pic04 from "@/assets/imgs/pic04.png";
 const GeneralTicket = () => {
   return (
     <div className="mt-20">
-      <h2 className="text-5xl md:text-7xl">Book General Access ticket and</h2>
-      <h2 className="text-5xl md:text-7xl">enjoy the attractions for free</h2>
+      <h2 className="text-4xl md:text-7xl">Book General Access ticket and</h2>
+      <h2 className="text-4xl md:text-7xl">enjoy the attractions for free</h2>
 
       <Button className="mt-10 " size="lg" variant="custom">
         Book General Access Ticket <IoArrowForward className="ml-2" />

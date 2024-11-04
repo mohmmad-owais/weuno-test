@@ -12,7 +12,7 @@ const Experience = () => {
     <div className="flex-col md:flex-row flex justify-between mt-20">
       <div>
         <span className="w-1/2">
-          <h2 className="text-5xl md:text-7xl">
+          <h2 className="text-4xl md:text-7xl">
             Curate your experience <br /> as you like
           </h2>
         </span>

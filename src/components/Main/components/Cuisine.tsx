@@ -11,10 +11,10 @@ import { Button } from "@/components/ui/button";
 const Cuisine = () => {
   return (
     <div className="mt-20 flex flex-col items-center justify-center">
-      <h2 className="text-center text-5xl md:text-7xl">
+      <h2 className="text-center text-4xl md:text-7xl">
         Experience the Finest Cuisine
       </h2>
-      <p className="text-center text-sm md:text-base w-3/4 mt-5">
+      <p className="hidden md:block text-center text-sm md:text-base w-3/4 mt-5">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industrys standard dummy text ever
         since the 1500sLorem Ipsum has been the industrys standard dummy text
@@ -32,13 +32,13 @@ const Cuisine = () => {
           />
           <div className="flex mt-4 justify-between items-center">
             <span>
-              <h3 className="text-white text-lg ">Vida Vera</h3>
+              <h3 className="text-white text-lg">Vida Vera</h3>
               <Button className="rounded-full mt-3 text-sm bg-customColorPrimary hover:bg-yellow-600 py-1 text-white">
                 100 SR per Guest
               </Button>
             </span>
             <span>
-              <IoArrowForward className="w-10 h-10 cursor-pointer text-white/50" />
+              <IoArrowForward className="md:w-10 md:h-10 size-7 cursor-pointer text-white/50" />
             </span>
           </div>
         </div>

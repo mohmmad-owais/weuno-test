@@ -15,7 +15,7 @@ const playFair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Test",
+  title: "The Groves",
   description: "",
 };
 

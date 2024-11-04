@@ -13,6 +13,7 @@ const config: Config = {
 		backgroundImage: {
 			'hero': "url('../assets/imgs/Hero.png')",
 			'card': 'linear-gradient(100deg, #283606, #172E12)',
+			'main': 'linear-gradient(97deg, #283606 0%, #0F1500 100%)',
 		  },
 		fontFamily:{
 			inter:['var(--font-inter)'],
