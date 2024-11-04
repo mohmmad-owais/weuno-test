@@ -1,4 +1,4 @@
-import React, { use, useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import closeIcon from "@/assets/imgs/cross.png";
 import hamburger from "@/assets/imgs/hamburger.png";
