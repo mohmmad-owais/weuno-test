@@ -108,7 +108,7 @@ const Footer = () => {
 
       {/* Fourth Row */}
 
-      <div className="mt-10 flex md:flex-row flex-col items-center justify-between">
+      <div className="mt-10 flex md:flex-row flex-col md:items-center justify-between">
         <div>
           <ul className="flex md:flex-row flex-col md:text-base text-sm md:space-x-10 space-y-5 md:space-y-0">
             <li>Terms & Conditions</li>
